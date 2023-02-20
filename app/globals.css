@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 62.5%;
+  height: -webkit-fill-available;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 100;
+  font-style: normal;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  letter-spacing: 0.03em;
+}
