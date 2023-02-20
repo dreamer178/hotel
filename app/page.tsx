@@ -316,16 +316,16 @@ export default function Home() {
               </div>
 
               {/* image area */}
-              <div className=" flex justify-between items-start gap-[4px] mt-[15px] w-full ">
-                <div className=" w-full">
+              <div className=" flex w-[337px] justify-between items-start gap-[4px] mt-[15px] h-[114px] ">
+                <div className="w-[160px] h-[114px] relative">
                   <Image
+                    className="img-fluid object-cover rounded-[4px]"
                     src="/icon/Rectangle 40.svg"
-                    width={160}
-                    height={114}
+                    fill
                     alt="great location image"
                   />
                 </div>
-                <div className="grid grid-cols-3 justify-center items-center w-full h-full  gap-1">
+                <div className="grid grid-cols-3 justify-center items-center w-[177px] h-[114px]   gap-[4px]">
                   <div className="w-[55px] h-[55px] relative">
                     <Image
                       className="img-fluid object-cover rounded-[4px]"
@@ -627,7 +627,9 @@ export default function Home() {
                 height={16}
                 alt="great location image"
               />
-              <p className="text-base16 text-txt-primary ">McDonald’s</p>
+
+              <p className="text-base16  text-txt-primary ">McDonald’s</p>
+
               <div className="w-full   justify-center items-center flex gap-1">
                 <div
                   style={{
