@@ -8,11 +8,11 @@ export default function Home() {
         <div className="flex justify-between items-center px-[15px]">
           <div className="w-full flex flex-row justify-start items-center ">
             <Image src="/icon/right.svg" width={24} height={24} alt="back" />
-            <p className="text-base12">Home</p>
+            <p className="text-base12 text-txt-primary">Home</p>
           </div>
           <div className="flex w-full justify-between items-center">
             <div className="flex justify-start items-center flex-row text-base12 gap-x-[8px]">
-              <p className="underline text-base12">Save</p>
+              <p className="underline text-base12 text-txt-primary">Save</p>
               <Image
                 src="/icon/Vector (1).svg"
                 width={24}
@@ -21,7 +21,7 @@ export default function Home() {
               />
             </div>
             <div className="flex justify-start items-center flex-row text-base12 gap-x-[8px]">
-              <p className="underline text-base12">Share</p>
+              <p className="underline text-base12 text-txt-primary">Share</p>
               <Image
                 src="/icon/fi-rr-share.svg"
                 width={24}
@@ -33,7 +33,7 @@ export default function Home() {
         </div>
         {/* higheliter */}
         <div className="bg-[#FEE29A] p-2 mt-[14px]">
-          <p className="text-[#2A220E] text-base12 text-center">
+          <p className="text-txt-primary text-base12 text-center">
             Up to 60% Less for Bundle, compared to regular price!
           </p>
         </div>
@@ -132,10 +132,10 @@ export default function Home() {
           {/* place buddge */}
           {/* {expandDetails && <h2>Geloo</h2>} */}
           <div className="mt-[24px]">
-            <h2 className="text-base24 leading-[33px]">
+            <h2 className="text-base24 leading-[33px] text-txt-primary">
               Best Place to Stay in <br /> Sajek within the Budget
             </h2>
-            <p className="text-base16 mt-[16px]">
+            <p className="text-base16 mt-[16px] text-txt-primary">
               Lorem Ipsum is simply dummied text of the printing and typesetting
               industry. Lorem Ipsum has been the industry standard dummy text
               ever since the 1500s.
