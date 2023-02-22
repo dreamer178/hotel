@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="bg-bg-primary">
-      <div className="max-w-[768px] mx-auto mt-[15px] ">
+      <div className="max-w-[768px] mx-auto pt-[15px] ">
         {/* top area save,share and back */}
         <div className="msm:grid flex  justify-between items-center grid-cols-12 px-[15px]">
           <div className="w-full col-span-9 flex flex-row justify-start items-center ">
