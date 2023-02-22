@@ -395,7 +395,7 @@ export default function Home() {
               {/* image area */}
               <div className="block md:flex justify-between items-center">
                 <div className=" ">
-                  <div className="flex w-[337px] justify-between items-start gap-[4px] mt-[15px] h-[114px] md:h-[149px] md:w-[362px]">
+                  <div className="flex w-[337px] justify-between items-start gap-[4px] md:gap-[8px] mt-[15px] h-[114px] md:h-[149px] md:w-[362px]">
                     <div className="w-[160px] h-[114px] md:w-[206px] md:h-[149px] relative">
                       <Image
                         className="img-fluid object-cover rounded-[4px]"
@@ -404,7 +404,7 @@ export default function Home() {
                         alt="great location image"
                       />
                     </div>
-                    <div className="grid grid-cols-3 md:grid-cols-2 justify-center items-center  w-[177px] h-[114px] md:w-[156px] md:h-[149px]   gap-[4px]">
+                    <div className="grid grid-cols-3 md:grid-cols-2 justify-center items-center  w-[177px] h-[114px] md:w-[156px] md:h-[149px] gap-[4px] md:gap-[8px]">
                       <div className="w-[55px] h-[55px] md:w-[70px] md:h-[70px] relative">
                         <Image
                           className="img-fluid object-cover rounded-[4px]"
