@@ -5,7 +5,7 @@ export default function Home() {
     <main>
       <div className="max-w-[768px] mx-auto mt-[15px] bg-bg-primary">
         {/* top area save,share and back */}
-        <div className="msm:grid xs:flex  justify-between items-center grid-cols-12 px-[15px]">
+        <div className="msm:grid flex  justify-between items-center grid-cols-12 px-[15px]">
           <div className="w-full col-span-9 flex flex-row justify-start items-center ">
             <Image src="/icon/right.svg" width={24} height={24} alt="back" />
             <p className="text-base12 text-txt-primary">Home</p>
@@ -33,13 +33,13 @@ export default function Home() {
         </div>
         {/* higheliter */}
         <div className="bg-[#FEE29A] p-2 mt-[14px]">
-          <p className="text-txt-primary text-base12 xs:text-center msm:text-start px-[12px]">
+          <p className="text-txt-primary text-base12 text-center msm:text-start px-[12px]">
             Up to 60% Less for Bundle, compared to regular price!
           </p>
         </div>
         {/* hotel area */}
         <div className="px-[15px] mt-[10px]">
-          <div className="w-[343] h-[178px] xs:block md:hidden relative">
+          <div className="w-[343] h-[178px] block md:hidden relative">
             <Image
               src="/icon/Frame 950.svg"
               className="img-fluid object-cover w-full"
@@ -48,7 +48,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="xs:hidden md:flex justify-between items-center w-full gap-[16px]">
+          <div className="hidden md:flex justify-between items-center w-full gap-[16px]">
             <div className="w-[370px] h-[315px] relative">
               <Image
                 src="/icon/Frame 45.svg"
@@ -188,7 +188,7 @@ export default function Home() {
               ever since the 1500s.
             </p>
 
-            <div className="h-[1px] xs:block md:hidden w-[343px] mx-auto bg-[#CAC5B7] mt-[24px]"></div>
+            <div className="h-[1px] block md:hidden w-[343px] mx-auto bg-[#CAC5B7] mt-[24px]"></div>
             {/* packege details */}
             <div className="mt-[24px]">
               <h2 className="text-base24 leading-[33px] text-txt-primary">
@@ -290,7 +290,7 @@ export default function Home() {
             <div className="mt-[40px]">
               <h2 className="text-base24 ">Categories List</h2>
 
-              <div className="xs:grid md:hidden grid-cols-12 justify-center items-center h-[53px] mt-[12px] gap-x-[15px]">
+              <div className="grid md:hidden grid-cols-12 justify-center items-center h-[53px] mt-[12px] gap-x-[15px]">
                 <div className="col-span-8 w-full h-full">
                   <div className=" rounded-full flex justify-center items-center shadow-2xl  py-[7px]">
                     <div className="flex justify-between items-center gap-x-[20px]">
@@ -329,7 +329,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="shadow-2xl xs:hidden md:grid grid-cols-12 justify-between  items-center h-[50px] mt-[17px] rounded-full pl-[10px] pr-[4px]">
+              <div className="shadow-2xl hidden md:grid grid-cols-12 justify-between  items-center h-[50px] mt-[17px] rounded-full pl-[10px] pr-[4px]">
                 <div className="flex w-full col-span-5 justify-start items-center gap-x-[10px]">
                   <Image
                     src="/icon/el_star-alt.svg"
@@ -367,7 +367,7 @@ export default function Home() {
 
         <div className="px-[16px] mt-[24px]">
           <div className="shadow-2xl rounded-[16px] py-[13px] ">
-            <div className="xs:pl-[6px] md:pl-[16px]">
+            <div className="pl-[6px] md:pl-[16px]">
               <div className="flex justify-between items-start ">
                 <div className="div">
                   <h1 className="text-base16 font-normal text-txt-primary">
@@ -393,10 +393,10 @@ export default function Home() {
               </div>
 
               {/* image area */}
-              <div className="xs:block md:flex justify-between items-center">
+              <div className="block md:flex justify-between items-center">
                 <div className=" ">
-                  <div className="flex xs:w-[337px] justify-between items-start gap-[4px] mt-[15px] xs:h-[114px] md:h-[149px] md:w-[362px]">
-                    <div className="xs:w-[160px] xs:h-[114px] md:w-[206px] md:h-[149px] relative">
+                  <div className="flex w-[337px] justify-between items-start gap-[4px] mt-[15px] h-[114px] md:h-[149px] md:w-[362px]">
+                    <div className="w-[160px] h-[114px] md:w-[206px] md:h-[149px] relative">
                       <Image
                         className="img-fluid object-cover rounded-[4px]"
                         src="/icon/Rectangle 40.svg"
@@ -404,8 +404,8 @@ export default function Home() {
                         alt="great location image"
                       />
                     </div>
-                    <div className="grid xs:grid-cols-3 md:grid-cols-2 justify-center items-center  xs:w-[177px] xs:h-[114px] md:w-[156px] md:h-[149px]   gap-[4px]">
-                      <div className="xs:w-[55px] xs:h-[55px] md:w-[70px] md:h-[70px] relative">
+                    <div className="grid grid-cols-3 md:grid-cols-2 justify-center items-center  w-[177px] h-[114px] md:w-[156px] md:h-[149px]   gap-[4px]">
+                      <div className="w-[55px] h-[55px] md:w-[70px] md:h-[70px] relative">
                         <Image
                           className="img-fluid object-cover rounded-[4px]"
                           src="/icon/Rectangle 40.svg"
@@ -413,7 +413,7 @@ export default function Home() {
                           alt="great location image"
                         />
                       </div>
-                      <div className="xs:w-[55px] xs:h-[55px] md:w-[70px] md:h-[70px] relative">
+                      <div className="w-[55px] h-[55px] md:w-[70px] md:h-[70px] relative">
                         <Image
                           className="img-fluid object-cover rounded-[4px]"
                           src="/icon/Rectangle 40.svg"
@@ -421,7 +421,7 @@ export default function Home() {
                           alt="great location image"
                         />
                       </div>
-                      <div className="wxs:w-[55px] xs:h-[55px] md:w-[70px] md:h-[70px] relative">
+                      <div className="ww-[55px] h-[55px] md:w-[70px] md:h-[70px] relative">
                         <Image
                           className="img-fluid object-cover rounded-[4px]"
                           src="/icon/Rectangle 40.svg"
@@ -429,7 +429,7 @@ export default function Home() {
                           alt="great location image"
                         />
                       </div>
-                      <div className="xs:w-[55px] xs:h-[55px] md:w-[70px] md:h-[70px] relative">
+                      <div className="w-[55px] h-[55px] md:w-[70px] md:h-[70px] relative">
                         <Image
                           className="img-fluid object-cover rounded-[4px]"
                           src="/icon/Rectangle 40.svg"
@@ -437,7 +437,7 @@ export default function Home() {
                           alt="great location image"
                         />
                       </div>
-                      <div className="xs:block md:hidden xs:w-[55px] xs:h-[55px] md:w-[70px] md:h-[70px] relative">
+                      <div className="block md:hidden w-[55px] h-[55px] md:w-[70px] md:h-[70px] relative">
                         <Image
                           className="img-fluid object-cover rounded-[4px]"
                           src="/icon/Rectangle 40.svg"
@@ -445,7 +445,7 @@ export default function Home() {
                           alt="great location image"
                         />
                       </div>
-                      <div className="xs:block md:hidden xs:w-[55px] xs:h-[55px] md:w-[70px] md:h-[70px] relative">
+                      <div className="block md:hidden w-[55px] h-[55px] md:w-[70px] md:h-[70px] relative">
                         <Image
                           className="img-fluid object-cover rounded-[4px]"
                           src="/icon/Rectangle 40.svg"
@@ -456,7 +456,7 @@ export default function Home() {
                     </div>
                   </div>
                   {/* button */}
-                  <div className="xs:hidden md:block">
+                  <div className="hidden md:block">
                     <div className="mt-[19px] ">
                       <div className=" flex flex-col justify-center items-center text-base12 mx-auto">
                         <p>Price per Person:</p>
@@ -701,7 +701,7 @@ export default function Home() {
             </div> */}
 
             {/* button */}
-            <div className="xs:block md:hidden">
+            <div className="block md:hidden">
               <div className="mt-[19px] ">
                 <div className=" flex flex-col justify-center items-center text-base12 mx-auto">
                   <p>Price per Person:</p>
@@ -782,7 +782,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="px-[16px] gap-x-[12px] xs:mt-[16px] md:mt-[32px] xs:block md:flex flex-row justify-between  items-start">
+        <div className="px-[16px] gap-x-[12px] mt-[16px] md:mt-[32px] block md:flex flex-row justify-between  items-start">
           {/* Amneties area */}
 
           <div className=" w-full">
@@ -801,7 +801,7 @@ export default function Home() {
           </div>
 
           {/* Hotel Rules: */}
-          <div className="xs:mt-[16px] md:mt-[0px] w-full">
+          <div className="mt-[16px] md:mt-[0px] w-full">
             <h2 className="text-base24 font-normal">Hotel Rules:</h2>
             <div className="grid grid-cols-2 justify-between items-center mt-[12px]">
               <h2 className="flex justify-start items-center text-base16 gap-x-2">
@@ -871,11 +871,11 @@ export default function Home() {
         <div className="mt-[26px] px-[16px]">
           <h2 className="text-base24 font-normal">Cancellation Policy</h2>
 
-          <p className="xs:mt-[12px] md:mt-[4px] text-base16 ">
+          <p className="mt-[12px] md:mt-[4px] text-base16 ">
             Percentage returned, excluding Service Fee
           </p>
           {/* phone con */}
-          <div className="xs:mt-[12px] md:hidden xs:flex flex-col gap-[30px]">
+          <div className="mt-[12px] md:hidden flex flex-col gap-[30px]">
             <div className=" shadow-lg rounded-2xl">
               <div className="bg-[#376576] rounded-t-2xl">
                 <p className="text-base16 text-bg-white flex justify-center items-center p-1">
@@ -936,7 +936,7 @@ export default function Home() {
           </div>
 
           {/* tab con */}
-          <div className="xs:hidden md:flex justify-start items-center mt-[16px]">
+          <div className="hidden md:flex justify-start items-center mt-[16px]">
             <div className="bg-[#376576] rounded-tl-full rounded-bl-full w-full">
               <p className="text-base16 text-bg-white flex justify-center items-center p-1">
                 100%
@@ -963,7 +963,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="xs:hidden md:flex justify-start items-center mt-[16px] gap-x-[7px] w-full h-[141px] px-[4px]">
+          <div className="hidden md:flex justify-start items-center mt-[16px] gap-x-[7px] w-full h-[141px] px-[4px]">
             <div className="border border-[#2A220E73] rounded-xl w-full h-full">
               <p className="text-center flex justify-center h-full items-center text-base12 py-[20px] px-[5px]">
                 If Customer Cancels between 14 to 2 days before the Arival time,
