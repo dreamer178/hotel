@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-      <div className="max-w-[768px] mx-auto mt-[15px] bg-bg-primary">
+    <main className="bg-bg-primary">
+      <div className="max-w-[768px] mx-auto mt-[15px] ">
         {/* top area save,share and back */}
         <div className="msm:grid flex  justify-between items-center grid-cols-12 px-[15px]">
           <div className="w-full col-span-9 flex flex-row justify-start items-center ">
